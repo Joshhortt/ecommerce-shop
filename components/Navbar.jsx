@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <p className='logo'>
-        <Link href='/'>/Loja online</Link>
+        <Link href='/'>Bmatica</Link>
       </p>
 
       <button type='button'
