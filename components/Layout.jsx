@@ -7,7 +7,7 @@ const Layout = ( { children }) => {
   return (
     <div className='layout'>
       <Head>
-        <title>Bmatica</title>
+        <title>PHONIX</title>
       </Head>
       <header>
         <Navbar />
