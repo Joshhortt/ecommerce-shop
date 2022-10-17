@@ -51,6 +51,7 @@ const onAdd = (product, quantity) => {
     <Context.Provider
       value={{
         showCart,
+        setShowCart, 
         cartItems,
         totalPrice,
         totalQuantities,
