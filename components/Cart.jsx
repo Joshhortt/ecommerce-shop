@@ -28,6 +28,23 @@ const Cart = () => {
           <span className="cart-num-items">({totalQuantities} items)</span>
         </button>
 
+{/* Render Cart Items */}
+    {cartItems.length < 1 && (
+              <div className="empty-cart">
+                <AiOutlineShopping size={150} />
+                <h3>O seu carrinho de compras está vazio</h3>
+                <Link href="/">
+                  <button
+                    type="button"
+                    onClick={() => setShowCart(false)}
+                    className="btn"
+                  >
+                    Continuar a fazer compras
+                  </button>
+                </Link>
+              </div>
+            )}
+
       </div>
     </div>
   )
