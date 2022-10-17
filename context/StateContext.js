@@ -57,6 +57,7 @@ const onAdd = (product, quantity) => {
         qty,
         incQty,
         decQty,
+        onAdd,
       }}
     >
       {children}
