@@ -4,7 +4,7 @@ import { AiFillInstagram, AiOutlineTwitter, AiFillFacebook } from 'react-icons/a
 const Footer = () => {
   return (
     <div className='footer-container'>
-        <p>&copy; 2022 Bmatica | Todos os direitos reservados | Privacidade e Segurança </p>
+        <p>&copy; 2022 Phonix | Todos os direitos reservados | Privacidade e Segurança </p>
         {/* https://react-icons.github.io/react-icons/search?q=facebook */}
         <p className='icons'>
           <AiFillInstagram />
