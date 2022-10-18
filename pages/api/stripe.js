@@ -11,6 +11,9 @@ import Stripe from 'stripe';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
+
+console.log(req.body.cartItems)
+
     try {
         const params = {
 
