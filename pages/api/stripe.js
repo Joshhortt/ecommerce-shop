@@ -1,3 +1,10 @@
+// Getting the API Key: https://stripe.com/en-br 
+// Accept online payments:  https://stripe.com/docs/payments
+// Getting there:  https://stripe.com/docs/checkout/quickstart
+// Choosing the prebuilt checkout page with front-end framework
+// https://stripe.com/docs/checkout/quickstart?client=next or 
+// https://stripe.com/docs/checkout/quickstart?client=react
+
 import Stripe from 'stripe';
 
     const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
