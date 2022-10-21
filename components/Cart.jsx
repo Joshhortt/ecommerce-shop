@@ -45,7 +45,7 @@ const Cart = () => {
         className="cart-heading"
         onClick={() => setShowCart(false)}>
           <AiOutlineLeft />
-          <span className="heading">O teu Carrinho</span>
+          <span className="heading">O seu carrinho tem:</span>
           <span className="cart-num-items">({totalQuantities} items)</span>
         </button>
 
@@ -53,7 +53,7 @@ const Cart = () => {
     {cartItems.length < 1 && (
               <div className="empty-cart">
                 <AiOutlineShopping size={150} />
-                <h3>O seu carrinho de compras está vazio</h3>
+                <h3>O seu carrinho de compras está vazio!</h3>
                 <Link href="/">
                   <button
                     type="button"
