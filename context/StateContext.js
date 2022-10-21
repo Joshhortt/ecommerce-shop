@@ -35,7 +35,7 @@ const onAdd = (product, quantity) => {
       setCartItems([...cartItems, { ...product }]);
     }
 
-    toast.success(`${qty} ${product.name} added to the cart.`);
+    toast.success(`${qty} ${product.name} adicionado ao carrinho de compras.`);
   } 
 
   const onRemove = (product) => {
