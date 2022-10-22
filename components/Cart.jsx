@@ -46,7 +46,7 @@ const Cart = () => {
         onClick={() => setShowCart(false)}>
           <AiOutlineLeft />
           <span className="heading">O seu carrinho tem:</span>
-          <span className="cart-num-items">({totalQuantities} items)</span>
+          <span className="cart-num-items">({totalQuantities} itens)</span>
         </button>
 
 {/* Render Cart Items */}
@@ -60,7 +60,7 @@ const Cart = () => {
                     onClick={() => setShowCart(false)}
                     className="btn"
                   >
-                    Continuar a fazer compras
+                    Continuar a comprar
                   </button>
                 </Link>
               </div>
@@ -99,12 +99,12 @@ const Cart = () => {
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
             <div className="total">
-              <h3>Subtotal:</h3>
+              <h3>Total (sem custos de envio):</h3>
               <h3>{totalPrice} €</h3>
             </div>
             <div className="btn-container">
               <button type="button" className="btn" onClick={handleCheckout}>
-                Pagar com Stripe
+                Finalizar compra
               </button>
             </div>
           </div>
