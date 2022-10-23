@@ -6,10 +6,8 @@
 // https://stripe.com/docs/checkout/quickstart?client=react
 
 import Stripe from 'stripe';
-    // const stripe = require('stripe')('sk_test_7SDS5JtA19kE6fk26j2P2DBq');
-    // const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-    // const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+
 export default async function handler(req, res) {
   if (req.method === 'POST') {
 
@@ -26,11 +24,9 @@ console.log(req.body)
               // Create shipping rate: https://dashboard.stripe.com/test/shipping-rates
               
               { shipping_rate: 'shr_1LvmCjAESr2QMsNCLwfpEy5Y' },
-              // { shipping_rate: 'shr_1LuKXCJdncuvx1yGEiofdHxm' },
-              // { shipping_rate: 'shr_1LuKltJdncuvx1yGuhefw5SD' },
+  
             ],
 
-                // Provide the exact Price ID (for example, pr_1234) of the product you want to sell
                 line_items: req.body.map(item => {
                   const img = item.image[0].asset._ref
                   const newImage = img
@@ -56,8 +52,8 @@ console.log(req.body)
                     quantity: item.quantity,
                   }
                 }),
-            success_url: `${req.headers.origin}/?success=true`,
-            cancel_url: `${req.headers.origin}/?canceled=true`,
+            success_url: `${req.headers.origin}/success`,
+            cancel_url: `${req.headers.origin}/canceled`,
           }
 
       // Create Checkout Sessions from body params.

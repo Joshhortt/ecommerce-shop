@@ -3,11 +3,9 @@ import Link from 'next/link';
 import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShopping } from 'react-icons/ai';
 import { TiDeleteOutline } from 'react-icons/ti';
 import toast from 'react-hot-toast';
-
 import { useStateContext } from '../context/StateContext';
 import { urlFor } from '../lib/client';
 import getStripe from '../lib/getStripe';
-
 
 const Cart = () => {
 
@@ -99,7 +97,7 @@ const Cart = () => {
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
             <div className="total">
-              <h3>Total (sem custos de envio):</h3>
+              <h3>Total ( a pagar ):</h3>
               <h3>{totalPrice} €</h3>
             </div>
             <div className="btn-container">

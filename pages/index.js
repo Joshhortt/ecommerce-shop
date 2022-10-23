@@ -8,7 +8,7 @@ const Home = ({ products, bannerData }) => {
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
     <div className="products-heading">
       <h2>Produtos em Destaque</h2>
-      <p>Acessórios audio. Muitas variedades</p>
+      <p>Grande variedade de produtos de hardware a preços imbatíveis.</p>
     </div>
     <div className="products-container">
       {products?.map(product => (<Product key={product._id} product={product} />
