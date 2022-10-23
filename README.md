@@ -1,7 +1,7 @@
 23 October 2022
 # E-commerce shop
 #### By _**Josh Hortt**_
-_version: 23/10/2022.
+version: 23/10/2022
 ## Description
 _This application is about an E-commerce Hardware store for small businesses_<br/>
 _It was built for a local business client_<br/>
