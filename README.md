@@ -1,16 +1,17 @@
 23 October 2022
 # E-commerce shop
+#### By _**Josh Hortt**_
+_version: 23/10/2022.
 ## Description
-_This application is about an E-commerce Hardware store for a small businesses_<br/>
-_This Website is for a local business client_<br/>
-_This Website uses the portuguese language_<br/>
-_This Website is Developed in english React.js_<br/>
-_This E-commerce application will include modern design and animations,the_<br/>
-_ability to add and edit products on the go using a Sanity, all advanced cart,_<br/>
+_This application is about an E-commerce Hardware store for small businesses_<br/>
+_It was built for a local business client_<br/>
+_It uses the portuguese language_<br/>
+_It is Developed in React.js_<br/>
+_This E-commerce application includes modern design and animations,the_<br/>
+_ability to add and edit products on the go using a Sanity CMS, all advanced cart,_<br/>
 _and checkout functionalities, and most importantly, the complete integration_<br/>
 _with Stripe so that the user can cover real payments_.
-#### By _**Josh Hortt**_
-_version: 23/10/2022_
+_It can be used for any kind of E-commerce store (Fashion, Jewellry, etc..)_.
 
 ## E-commerce shop 🎧 🔊 | [Live Link](https://vercel.com/)
 ## Technologies Used
