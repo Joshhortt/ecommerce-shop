@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <p>
-        &copy; 2023 Phonix | Todos os direitos reservados | Privacidade e
+        &copy; 2024 Phonix | Todos os direitos reservados | Privacidade e
         Segurança{" "}
       </p>
       {/* https://react-icons.github.io/react-icons/search?q=facebook */}
